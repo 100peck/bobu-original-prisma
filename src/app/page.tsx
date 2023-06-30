@@ -1,12 +1,12 @@
 import React from "react";
-import {Hero} from "@/components/hero/hero";
-import {Section} from "@/components/section/section";
-import {About} from "@/components/about/about";
-import {ProductGrid} from "@/components/productGrid/productGrid";
+import {Hero} from "../components/hero/hero";
+import {Section} from "../components/section/section";
+import {About} from "../components/about/about";
+import {ProductGrid} from "../components/productGrid/productGrid";
 import prisma from "../../prisma/lib/prisma";
-import {Collection} from "@/components/collection/collection";
+import {Collection} from "../components/collection/collection";
 
-export default async function Home(props: React.JSX.IntrinsicAttributes) {
+export default async function Home() {
     const products: any = await prisma.product.findMany();
 
     return (

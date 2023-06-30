@@ -11,7 +11,7 @@ export type Product = {
 type Props = {
     products: Product[]
 }
-export const ProductGrid = ({products}: Props) => <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
+export const ProductGrid = ({products}: Props) => <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6">
     {products.map((product) => {
         const {id, title, imageUrl, link} = product;
 
