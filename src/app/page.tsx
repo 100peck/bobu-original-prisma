@@ -5,7 +5,8 @@ import {About} from "../components/about/about";
 import {ProductGrid} from "../components/productGrid/productGrid";
 import prisma from "../../prisma/lib/prisma";
 import {Collection} from "../components/collection/collection";
-import {Services} from "@/components/services/services";
+import {Services} from "../components/services/services";
+import {Footer} from "../components/footer/footer";
 
 export default async function Home() {
     const products: any = await prisma.product.findMany();
@@ -28,6 +29,7 @@ export default async function Home() {
             <Section title="Naše vize">
                 <div>asdasda</div>
             </Section>
+            <Footer/>
         </main>
     )
 }
