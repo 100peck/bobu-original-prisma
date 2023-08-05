@@ -14,10 +14,10 @@ export default async function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between">
             <Hero/>
-            <Section title="Naše služby">
+            <Section title="Služby">
                 <Services/>
             </Section>
-            <Section title="Novinky">
+            <Section title="Naše Kolekce">
                 <ProductGrid products={products}/>
             </Section>
             <Section title="O nás">
