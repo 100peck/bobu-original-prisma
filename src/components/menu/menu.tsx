@@ -2,9 +2,10 @@ import React from "react";
 
 
 const menuItems = [
-    {title: "Kategorie", link: "#!"},
-    {title: "Lookbook", link: "#!"},
-    {title: "Blog", link: "#!"}
+    {title: "Služby", link: "#!"},
+    {title: "Kolekce", link: "#!"},
+    {title: "O nás", link: "#!"},
+    {title: "Naše tvorba", link: "#!"}
 ]
 export const Menu = () => {
     return <ul className="mr-auto px-4 flex flex-row" data-te-navbar-nav-ref>

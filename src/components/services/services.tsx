@@ -4,14 +4,13 @@ import React from 'react';
 import {Button} from "@/components/button/button";
 
 const services = [
-    {name: "Taneční kostymy 1", image: "icons/001-sewing-machine.png"},
-    {name: "Taneční kostymy 2", image: "icons/002-needle-with-thread-to-sew-clothes.png"},
-    {name: "Taneční kostymy 3", image: "icons/003-sewing.png"},
-    {name: "Taneční kostymy 4", image: "icons/004-threads.png"},
-    {name: "Taneční kostymy 5", image: "icons/006-needle-1.png"},
-    {name: "Taneční kostymy 61", image: "icons/007-design.png"},
-    {name: "Taneční kostymy 53", image: "icons/006-needle-1.png"},
-    {name: "Taneční kostymy 22", image: "icons/002-needle-with-thread-to-sew-clothes.png"},
+    {name: "Krejčovské služby", image: "icons/001-sewing-machine.png"},
+    {name: "Opravy a úpravy odevu", image: "icons/002-needle-with-thread-to-sew-clothes.png"},
+    {name: "Šití na míru", image: "icons/003-sewing.png"},
+    {name: "Šití málo sériovych zakázek", image: "icons/004-threads.png"},
+    {name: "Vlastní značka dámské módy", image: "icons/006-needle-1.png"},
+    {name: "Tvorba a konstrukce strihu", image: "icons/007-design.png"},
+    {name: "Šití tanečních kostymu", image: "icons/006-needle-1.png"},
 ]
 export const Services = () => {
     return <div className="m-auto text-center">
