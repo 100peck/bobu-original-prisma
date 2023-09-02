@@ -3,7 +3,7 @@ import React from 'react';
 const services = [{name: "Taneční kostymy 1",}, {name: "Taneční kostymy 1",}, {name: "Taneční kostymy 1"}, {name: "Taneční kostymy 1"}]
 export const Footer = () => {
     return <div id="footer" className="w-full bg-black p-24">
-        <div className="grid grid-cols-4">
+        <div className="lg:grid lg:grid-cols-4">
             {/*<div>*/}
             {/*    <div className="text-xl text-left mb-6 font-bold font-mono uppercase">Služby</div>*/}
             {/*    <ul className="leading-8">*/}
