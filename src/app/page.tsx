@@ -26,9 +26,6 @@ export default async function Home() {
             <Section title="Kolekce">
                 <Collection/>
             </Section>
-            <Section title="Naše vize">
-                <div>asdasda</div>
-            </Section>
             <Footer/>
         </main>
     )

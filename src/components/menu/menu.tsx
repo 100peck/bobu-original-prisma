@@ -2,10 +2,10 @@ import React from "react";
 
 
 const menuItems = [
-    {title: "Služby", link: "#!"},
-    {title: "Kolekce", link: "#!"},
-    {title: "O nás", link: "#!"},
-    {title: "Naše tvorba", link: "#!"}
+    {title: "Služby", link: '#služby'},
+    {title: "Kolekce", link: "#kolekce"},
+    {title: "O nás", link: "#o nás"},
+    {title: "Naše tvorba", link: "#naše kolekce"},
 ]
 export const Menu = () => {
     return <ul className="mr-auto px-4 flex flex-row" data-te-navbar-nav-ref>
