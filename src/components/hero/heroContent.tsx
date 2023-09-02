@@ -7,9 +7,7 @@ import {Button} from "../button/button";
 
 export const HeroContent = () => {
 
-    const handleClick = () => {
-        redirect("/kolekce")
-    }
+    const link = '#služby';
 
     return <div className="flex items-center h-screen xl:w-2/3 md:w-full m-auto ">
         <div className="py-8 px-4 mx-auto max-w-screen-2xl text-center lg:py-16 lg:px-12">
@@ -17,7 +15,7 @@ export const HeroContent = () => {
             <h2 className="text-2xl font-mono uppercase">Bobu originals s.r.o.</h2>
 
             <div className="flex flex-col mt-8 mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                <Button text="Co umíme" onClick={handleClick} type="primary"/>
+                <Button text="Co umíme" link={link} type="primary"/>
             </div>
         </div>
     </div>

@@ -7,5 +7,5 @@ export const About = () => <div className='m-auto text-center lg:w-[38rem]'>
         We are an identifiable Australian label where thoughtful design embraces quality tailored womens wear in a
         timeless effortlessness.
     </div>
-    <Button text="Objevte novou kolekci" onClick={() => {}} type="secondary"/>
+    <Button text="Objevte novou kolekci" link="/#footer" type="secondary"/>
 </div>

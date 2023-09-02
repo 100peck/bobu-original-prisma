@@ -20,7 +20,6 @@ export const Services = () => {
                 <div className="text-2xl font-mono uppercase">{service.name}</div>
             </div>)}
         </div>
-        <Button text="Zjisti více" onClick={() => {
-        }} type="secondary"/>
+        <Button text="Zjisti více" link="/#footer" type="secondary"/>
     </div>
 }

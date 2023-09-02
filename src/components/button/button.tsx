@@ -4,14 +4,14 @@ import React from 'react';
 
 type Props = {
     text: string;
-    onClick: () => void;
+    link: string;
     type: 'primary' | 'secondary';
 }
-export const Button = ({text, onClick, type}: Props) => {
+export const Button = ({text, link, type}: Props) => {
     const typeClass = type === 'secondary' ? 'bg-white text-black border border-black' : 'bg-white text-black';
 
-    return <button onClick={onClick} className={`font-mono uppercase py-4 px-8 text-sm ${typeClass} transition duration-200 ease-in-out hover:bg-black/80 hover:text-white`}>
+    return <a href={link} className={`font-mono uppercase py-4 px-8 text-sm ${typeClass} transition duration-200 ease-in-out hover:bg-black/80 hover:text-white`}>
         {text}
-    </button>
+    </a>
 
 }
