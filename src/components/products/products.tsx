@@ -8,6 +8,6 @@ export const Products = async () => {
 
     return <div className='w-full m-auto text-center'>
         <ProductGrid products={products}/>
-        <Link link="#" text="Objevte novou kolekci"/>
+        <Link target="_blank" link="https://bobu.cz/46_bobu-originals" text="Objevte celou kolekci"/>
     </div>
 }
