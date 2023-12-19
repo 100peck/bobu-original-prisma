@@ -21,11 +21,8 @@ export default function Home() {
             <Section title="O nás">
                 <About/>
             </Section>
-            <Section title="Kolekce">
+            <Section title="">
                 <Collection/>
-            </Section>
-            <Section title="Naše vize">
-                <div>asdasda</div>
             </Section>
             <Footer/>
         </main>

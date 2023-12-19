@@ -1,6 +1,14 @@
 import React from 'react';
 
-const services = [{name: "Taneční kostymy 1",}, {name: "Taneční kostymy 1",}, {name: "Taneční kostymy 1"}, {name: "Taneční kostymy 1"}]
+const services = [
+    {name: "Krejčovské služby",},
+    {name: "Opravy a úpravy oděvů",},
+    {name: "Šití na míru"},
+    {name: "Šití málosériových zakázek"},
+    {name: "Vlastní značka dámské módy"},
+    {name: "Tvorba a konstrukce střihu"},
+    {name: "Šití tanečních kostýmů"}
+];
 export const Footer = () => {
     return <div className="w-full bg-black p-24">
         <div className="grid grid-cols-4">
