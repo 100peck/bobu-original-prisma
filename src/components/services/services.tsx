@@ -5,12 +5,12 @@ import {Button} from "@/components/button/button";
 
 const services = [
     {name: "Krejčovské služby", image: "icons/001-sewing-machine.png"},
-    {name: "Opravy a úpravy odevu", image: "icons/002-needle-with-thread-to-sew-clothes.png"},
+    {name: "Opravy a úpravy oděvů", image: "icons/002-needle-with-thread-to-sew-clothes.png"},
     {name: "Šití na míru", image: "icons/003-sewing.png"},
-    {name: "Šití málo sériovych zakázek", image: "icons/004-threads.png"},
+    {name: "Šití málosériových zakázek", image: "icons/004-threads.png"},
     {name: "Vlastní značka dámské módy", image: "icons/006-needle-1.png"},
-    {name: "Tvorba a konstrukce strihu", image: "icons/007-design.png"},
-    {name: "Šití tanečních kostymu", image: "icons/006-needle-1.png"},
+    {name: "Tvorba a konstrukce střihu", image: "icons/007-design.png"},
+    {name: "Šití tanečních kostýmů", image: "icons/006-needle-1.png"},
 ]
 export const Services = () => {
     return <div className="m-auto text-center">
