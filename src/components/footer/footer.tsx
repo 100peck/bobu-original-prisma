@@ -11,7 +11,7 @@ const services = [
 ];
 export const Footer = () => {
     return <div className="w-full bg-black p-24">
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-3">
             <div>
                 <div className="text-xl text-left mb-6 font-bold font-mono uppercase">Služby</div>
                 <ul className="leading-8">
@@ -21,10 +21,10 @@ export const Footer = () => {
             <div>
                 <div className="text-xl text-left mb-6 font-bold font-mono uppercase">Kontakt</div>
                 <ul className="leading-8">
-                    <li>Bobu originals s.r.o.</li>
-                    <li>Baška 608, 73901, Baška</li>
-                    <li>702 088 710</li>
-                    <li>stopkadev@gmail.com</li>
+                    <li>Bobu originals, s.r.o.</li>
+                    <li>Třída T.G.Masaryka 1108, Frýdek-Místek</li>
+                    <li>+420 777 805 793</li>
+                    <li>info@bobu.cz</li>
                 </ul>
             </div>
         </div>
