@@ -16,13 +16,13 @@ export const Footer = () => {
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-y-10">
             <div>
                 <div className="text-xl text-left mb-6 font-bold text-white font-mono uppercase">Služby</div>
-                <ul className="leading-8">
+                <ul className="leading-8 text-white">
                     {services.map(service => <li key={service.name}>{service.name}</li>)}
                 </ul>
             </div>
             <div>
                 <div className="text-xl text-left mb-6 font-bold text-white font-mono uppercase">Kontakt</div>
-                <ul className="leading-8">
+                <ul className="leading-8 text-white">
                     <li>Bobu originals, s.r.o.</li>
                     <li>Třída T.G.Masaryka 1108, Frýdek-Místek</li>
                     <li>+420 777 805 793</li>
