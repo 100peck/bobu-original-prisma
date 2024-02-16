@@ -7,18 +7,22 @@ import {Services} from "../components/services/services";
 import {Footer} from "../components/footer/footer";
 import {Products} from "@/components/products/products";
 
+import {MenuLinks} from "../components/types.ts"
+
 export default function Home() {
+
+    const {ABOUT, COLLECTION, SERVICES} = MenuLinks;
 
     return (
         <main className="flex min-h-screen flex-col items-center justify-between">
             <Hero/>
-            <Section title="Služby">
+            <Section id={SERVICES} title="Služby">
                 <Services/>
             </Section>
-            <Section title="Naše Kolekce">
+            <Section id={COLLECTION} title="Naše Kolekce">
                 <Products/>
             </Section>
-            <Section title="O nás">
+            <Section id={ABOUT} title="O nás">
                 <About/>
             </Section>
             <Section title="">

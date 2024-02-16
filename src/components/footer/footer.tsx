@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {MenuLinks} from '../types'
+
 const services = [
     {name: "Krejčovské služby",},
     {name: "Opravy a úpravy oděvů",},
@@ -10,8 +12,8 @@ const services = [
     {name: "Šití tanečních kostýmů"}
 ];
 export const Footer = () => {
-    return <div className="w-full bg-black p-24">
-        <div className="grid grid-cols-3">
+    return <div id={MenuLinks.FOOTER} className="w-full bg-black p-24">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-y-10">
             <div>
                 <div className="text-xl text-left mb-6 font-bold font-mono uppercase">Služby</div>
                 <ul className="leading-8">
