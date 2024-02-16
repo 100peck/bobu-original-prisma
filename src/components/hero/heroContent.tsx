@@ -13,7 +13,7 @@ export const HeroContent = () => {
 
     return <div className="flex items-center h-screen xl:w-2/3 md:w-full m-auto ">
         <div className="py-8 px-4 mx-auto max-w-screen-2xl text-center lg:py-16 lg:px-12">
-            <h1 className="mb-4 text-6xl font-serif tracking-tight leading-none text-gray-900 lg:text-8xl dark:text-white uppercase">Krejčovství a šicí dílna</h1>
+            <h1 className="mb-4 text-6xl font-serif tracking-tight leading-none lg:text-8xl text-white uppercase">Krejčovství a šicí dílna</h1>
             <h2 className="text-2xl font-mono uppercase">Bobu originals, s.r.o.</h2>
             <h3 className="text-2xl font-mono">sociální podnik</h3>
 
