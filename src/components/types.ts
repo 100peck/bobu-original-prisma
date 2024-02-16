@@ -1,5 +1,5 @@
 export enum MenuLinks {
-  ABOUT = 'about'
+  ABOUT = 'about',
   COLLECTION = 'collection',
   SERVICES = 'services',
   FOOTER = 'footer',

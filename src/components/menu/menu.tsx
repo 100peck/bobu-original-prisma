@@ -1,5 +1,5 @@
 import React from "react";
-import {MenuLinks} from '../types.ts'
+import {MenuLinks} from '../types'
 
 const {ABOUT, COLLECTION, SERVICES} = MenuLinks;
 

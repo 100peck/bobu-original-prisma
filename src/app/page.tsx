@@ -7,7 +7,7 @@ import {Services} from "../components/services/services";
 import {Footer} from "../components/footer/footer";
 import {Products} from "@/components/products/products";
 
-import {MenuLinks} from "../components/types.ts"
+import {MenuLinks} from "../components/types"
 
 export default function Home() {
 
