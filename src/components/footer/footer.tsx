@@ -25,7 +25,7 @@ export const Footer = () => {
                 <ul className="leading-8 text-white">
                     <li>Bobu originals, s.r.o.</li>
                     <li>Třída T.G.Masaryka 1108, Frýdek-Místek</li>
-                    <li>+420 777 805 793</li>
+                    <li>+420 777 805 973</li>
                     <li>info@bobu.cz</li>
                 </ul>
             </div>
