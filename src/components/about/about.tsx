@@ -1,6 +1,8 @@
 'use client';
 
 import {Button} from "../button/button";
+import {Link} from "@/components/link/link";
+import React from "react";
 
 export const About = () => <div className='m-auto text-center lg:max-w-[80rem]'>
     <div className='leading-8 font-sans font-light text-xl tracking-wide mb-6'>
@@ -13,4 +15,7 @@ export const About = () => <div className='m-auto text-center lg:max-w-[80rem]'>
         priorita OPZ+: 2 Sociální začleňování
     </div>
     <img src='img/eu-logo.png' alt="logo spolufinancováno evropskou unií" className="w-80 m-auto"/>
+    <div className='leading-8 font-sans font-light text-xl tracking-wide mt-10'>
+        <Link target="_blank" link="files/principy_podnikani.pdf" text="Jak dodržujeme principy podnikání"/>
+    </div>
 </div>
